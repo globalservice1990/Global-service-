@@ -11,7 +11,7 @@
 <meta name="google-site-verification" content="YAHAN_APNA_GOOGLE_CODE_DAALO" />
 
 <!-- PWA Manifest Link -->
-<link rel="manifest" href="/manifest.json">
+<link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="https://i.ibb.co/20ww0njW/file-00000000656c8210aa5f63d1bcbde23a.png ">
 
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -288,7 +288,7 @@ applyLoc();render();fill();
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js')
+      navigator.serviceWorker.register('sw.js')
         .then((reg) => console.log('Service Worker Registered!', reg))
         .catch((err) => console.log('Service Worker Registration Failed:', err));
     });
