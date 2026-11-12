@@ -1,4 +1,7 @@
 {
+ "id": "global-main-app",
+"scope": "./",
+  
   "name": "GLOBAL SERVICE",
   "short_name": "GLOBAL SERVICE",
   "start_url": "./",
